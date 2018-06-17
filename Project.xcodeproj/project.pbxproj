@@ -15,6 +15,33 @@
 		4421131720CFA573002832DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4421131520CFA573002832DB /* LaunchScreen.storyboard */; };
 		4421132220CFA574002832DB /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421132120CFA574002832DB /* ProjectTests.swift */; };
 		4421132D20CFA574002832DB /* ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421132C20CFA574002832DB /* ProjectUITests.swift */; };
+		4421133B20D5298B002832DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421133A20D5298B002832DB /* HomeViewController.swift */; };
+		4421133D20D52B63002832DB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421133C20D52B63002832DB /* User.swift */; };
+		4421133F20D5399B002832DB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421133E20D5399B002832DB /* ListViewController.swift */; };
+		4421134120D53B56002832DB /* NotaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421134020D53B56002832DB /* NotaViewController.swift */; };
+		4421134320D53B93002832DB /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421134220D53B93002832DB /* RankingViewController.swift */; };
+		4421134520D5432F002832DB /* CreateLivroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421134420D5432F002832DB /* CreateLivroViewController.swift */; };
+		4421134920D5590B002832DB /* DetalhesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421134820D5590B002832DB /* DetalhesTableViewCell.swift */; };
+		4421134B20D56442002832DB /* CoreDataGeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421134A20D56442002832DB /* CoreDataGeek.swift */; };
+		4421134F20D56FD8002832DB /* getLivros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421134E20D56FD8002832DB /* getLivros.swift */; };
+		4421135120D65D84002832DB /* ListaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421135020D65D84002832DB /* ListaTableViewCell.swift */; };
+		4421135320D68D52002832DB /* CoreDataLivros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421135220D68D52002832DB /* CoreDataLivros.swift */; };
+		4421135520D68E31002832DB /* CoreDataSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421135420D68E31002832DB /* CoreDataSeries.swift */; };
+		4421135720D68EFD002832DB /* CoreDataFilmes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421135620D68EFD002832DB /* CoreDataFilmes.swift */; };
+		4421135920D69033002832DB /* getGeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421135820D69033002832DB /* getGeek.swift */; };
+		4421135B20D6907F002832DB /* CreateGeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421135A20D6907F002832DB /* CreateGeekViewController.swift */; };
+		4421135D20D6939B002832DB /* DetalhesGeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421135C20D6939B002832DB /* DetalhesGeekTableViewCell.swift */; };
+		4421135F20D6B4DF002832DB /* ListSerieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421135E20D6B4DF002832DB /* ListSerieViewController.swift */; };
+		4421136120D6B517002832DB /* ListaFilmesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421136020D6B516002832DB /* ListaFilmesViewController.swift */; };
+		4421136320D6B53B002832DB /* ListaLivrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421136220D6B53B002832DB /* ListaLivrosViewController.swift */; };
+		4421136520D6B57B002832DB /* getSerie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421136420D6B57B002832DB /* getSerie.swift */; };
+		4421136720D6B618002832DB /* getFilme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421136620D6B618002832DB /* getFilme.swift */; };
+		4421136920D6B67A002832DB /* CreateFilmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421136820D6B67A002832DB /* CreateFilmeViewController.swift */; };
+		4421136B20D6B695002832DB /* CreateSerieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421136A20D6B694002832DB /* CreateSerieViewController.swift */; };
+		4421136D20D6C3B7002832DB /* ListaLivrosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421136C20D6C3B7002832DB /* ListaLivrosTableViewCell.swift */; };
+		4421136F20D6C3E5002832DB /* ListaSerieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421136E20D6C3E5002832DB /* ListaSerieTableViewCell.swift */; };
+		4421137120D6C409002832DB /* ListaFilmeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421137020D6C409002832DB /* ListaFilmeTableViewCell.swift */; };
+		4421137320D6E5B8002832DB /* DetalhesSerieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4421137220D6E5B8002832DB /* DetalhesSerieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +76,33 @@
 		4421132820CFA574002832DB /* ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4421132C20CFA574002832DB /* ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUITests.swift; sourceTree = "<group>"; };
 		4421132E20CFA574002832DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4421133A20D5298B002832DB /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4421133C20D52B63002832DB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4421133E20D5399B002832DB /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		4421134020D53B56002832DB /* NotaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotaViewController.swift; sourceTree = "<group>"; };
+		4421134220D53B93002832DB /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		4421134420D5432F002832DB /* CreateLivroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateLivroViewController.swift; sourceTree = "<group>"; };
+		4421134820D5590B002832DB /* DetalhesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetalhesTableViewCell.swift; path = ../DetalhesTableViewCell.swift; sourceTree = "<group>"; };
+		4421134A20D56442002832DB /* CoreDataGeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataGeek.swift; sourceTree = "<group>"; };
+		4421134E20D56FD8002832DB /* getLivros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getLivros.swift; sourceTree = "<group>"; };
+		4421135020D65D84002832DB /* ListaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaTableViewCell.swift; sourceTree = "<group>"; };
+		4421135220D68D52002832DB /* CoreDataLivros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataLivros.swift; sourceTree = "<group>"; };
+		4421135420D68E31002832DB /* CoreDataSeries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataSeries.swift; sourceTree = "<group>"; };
+		4421135620D68EFD002832DB /* CoreDataFilmes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataFilmes.swift; sourceTree = "<group>"; };
+		4421135820D69033002832DB /* getGeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getGeek.swift; sourceTree = "<group>"; };
+		4421135A20D6907F002832DB /* CreateGeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGeekViewController.swift; sourceTree = "<group>"; };
+		4421135C20D6939B002832DB /* DetalhesGeekTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesGeekTableViewCell.swift; sourceTree = "<group>"; };
+		4421135E20D6B4DF002832DB /* ListSerieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListSerieViewController.swift; sourceTree = "<group>"; };
+		4421136020D6B516002832DB /* ListaFilmesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaFilmesViewController.swift; sourceTree = "<group>"; };
+		4421136220D6B53B002832DB /* ListaLivrosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaLivrosViewController.swift; sourceTree = "<group>"; };
+		4421136420D6B57B002832DB /* getSerie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getSerie.swift; sourceTree = "<group>"; };
+		4421136620D6B618002832DB /* getFilme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getFilme.swift; sourceTree = "<group>"; };
+		4421136820D6B67A002832DB /* CreateFilmeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateFilmeViewController.swift; sourceTree = "<group>"; };
+		4421136A20D6B694002832DB /* CreateSerieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSerieViewController.swift; sourceTree = "<group>"; };
+		4421136C20D6C3B7002832DB /* ListaLivrosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaLivrosTableViewCell.swift; sourceTree = "<group>"; };
+		4421136E20D6C3E5002832DB /* ListaSerieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaSerieTableViewCell.swift; sourceTree = "<group>"; };
+		4421137020D6C409002832DB /* ListaFilmeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaFilmeTableViewCell.swift; sourceTree = "<group>"; };
+		4421137220D6E5B8002832DB /* DetalhesSerieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesSerieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +156,37 @@
 				4421130920CFA573002832DB /* AppDelegate.swift */,
 				4421130B20CFA573002832DB /* ViewController.swift */,
 				4421130D20CFA573002832DB /* Main.storyboard */,
+				4421137220D6E5B8002832DB /* DetalhesSerieTableViewCell.swift */,
+				4421135C20D6939B002832DB /* DetalhesGeekTableViewCell.swift */,
+				4421134820D5590B002832DB /* DetalhesTableViewCell.swift */,
+				4421135E20D6B4DF002832DB /* ListSerieViewController.swift */,
+				4421136020D6B516002832DB /* ListaFilmesViewController.swift */,
+				4421136220D6B53B002832DB /* ListaLivrosViewController.swift */,
+				4421136420D6B57B002832DB /* getSerie.swift */,
+				4421136620D6B618002832DB /* getFilme.swift */,
+				4421136820D6B67A002832DB /* CreateFilmeViewController.swift */,
+				4421136A20D6B694002832DB /* CreateSerieViewController.swift */,
+				4421136C20D6C3B7002832DB /* ListaLivrosTableViewCell.swift */,
+				4421136E20D6C3E5002832DB /* ListaSerieTableViewCell.swift */,
+				4421137020D6C409002832DB /* ListaFilmeTableViewCell.swift */,
+				4421135020D65D84002832DB /* ListaTableViewCell.swift */,
+				4421133A20D5298B002832DB /* HomeViewController.swift */,
+				4421133C20D52B63002832DB /* User.swift */,
+				4421133E20D5399B002832DB /* ListViewController.swift */,
+				4421134E20D56FD8002832DB /* getLivros.swift */,
+				4421135820D69033002832DB /* getGeek.swift */,
+				4421134020D53B56002832DB /* NotaViewController.swift */,
+				4421134220D53B93002832DB /* RankingViewController.swift */,
+				4421134420D5432F002832DB /* CreateLivroViewController.swift */,
+				4421135A20D6907F002832DB /* CreateGeekViewController.swift */,
 				4421131320CFA573002832DB /* Assets.xcassets */,
 				4421131520CFA573002832DB /* LaunchScreen.storyboard */,
 				4421131820CFA573002832DB /* Info.plist */,
 				4421131020CFA573002832DB /* Project.xcdatamodeld */,
+				4421134A20D56442002832DB /* CoreDataGeek.swift */,
+				4421135220D68D52002832DB /* CoreDataLivros.swift */,
+				4421135420D68E31002832DB /* CoreDataSeries.swift */,
+				4421135620D68EFD002832DB /* CoreDataFilmes.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -263,8 +344,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				4421130C20CFA573002832DB /* ViewController.swift in Sources */,
+				4421134F20D56FD8002832DB /* getLivros.swift in Sources */,
+				4421136520D6B57B002832DB /* getSerie.swift in Sources */,
+				4421135720D68EFD002832DB /* CoreDataFilmes.swift in Sources */,
 				4421131220CFA573002832DB /* Project.xcdatamodeld in Sources */,
+				4421133F20D5399B002832DB /* ListViewController.swift in Sources */,
+				4421136720D6B618002832DB /* getFilme.swift in Sources */,
+				4421135D20D6939B002832DB /* DetalhesGeekTableViewCell.swift in Sources */,
+				4421134520D5432F002832DB /* CreateLivroViewController.swift in Sources */,
+				4421135B20D6907F002832DB /* CreateGeekViewController.swift in Sources */,
+				4421135320D68D52002832DB /* CoreDataLivros.swift in Sources */,
+				4421136B20D6B695002832DB /* CreateSerieViewController.swift in Sources */,
 				4421130A20CFA573002832DB /* AppDelegate.swift in Sources */,
+				4421134B20D56442002832DB /* CoreDataGeek.swift in Sources */,
+				4421135F20D6B4DF002832DB /* ListSerieViewController.swift in Sources */,
+				4421133D20D52B63002832DB /* User.swift in Sources */,
+				4421136320D6B53B002832DB /* ListaLivrosViewController.swift in Sources */,
+				4421135520D68E31002832DB /* CoreDataSeries.swift in Sources */,
+				4421135920D69033002832DB /* getGeek.swift in Sources */,
+				4421135120D65D84002832DB /* ListaTableViewCell.swift in Sources */,
+				4421137320D6E5B8002832DB /* DetalhesSerieTableViewCell.swift in Sources */,
+				4421136F20D6C3E5002832DB /* ListaSerieTableViewCell.swift in Sources */,
+				4421136D20D6C3B7002832DB /* ListaLivrosTableViewCell.swift in Sources */,
+				4421137120D6C409002832DB /* ListaFilmeTableViewCell.swift in Sources */,
+				4421133B20D5298B002832DB /* HomeViewController.swift in Sources */,
+				4421136120D6B517002832DB /* ListaFilmesViewController.swift in Sources */,
+				4421136920D6B67A002832DB /* CreateFilmeViewController.swift in Sources */,
+				4421134920D5590B002832DB /* DetalhesTableViewCell.swift in Sources */,
+				4421134120D53B56002832DB /* NotaViewController.swift in Sources */,
+				4421134320D53B93002832DB /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

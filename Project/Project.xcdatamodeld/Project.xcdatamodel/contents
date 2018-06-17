@@ -1,4 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ListFilmes" representedClassName="ListFilmes" syncable="YES" codeGenerationType="class">
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ListGeek" representedClassName="ListGeek" syncable="YES" codeGenerationType="class">
+        <attribute name="capitulo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pagina" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ListLivros" representedClassName="ListLivros" syncable="YES" codeGenerationType="class">
+        <attribute name="capitulo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pagina" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ListSeries" representedClassName="ListSeries" syncable="YES" codeGenerationType="class">
+        <attribute name="episodio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temporada" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ListGeek" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="ListLivros" positionX="-54" positionY="18" width="128" height="105"/>
+        <element name="ListSeries" positionX="-36" positionY="45" width="128" height="105"/>
+        <element name="ListFilmes" positionX="-18" positionY="72" width="128" height="75"/>
+    </elements>
 </model>

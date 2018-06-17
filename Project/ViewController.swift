@@ -10,6 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nick: UITextField!
+    
+    @IBAction func log(_ sender: Any) {
+        User.userName.name = nick.text!
+        
+    }
+    
+    @IBAction func unwindSegue(segue: UIStoryboardSegue) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
